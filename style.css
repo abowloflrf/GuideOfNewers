@@ -17,6 +17,6 @@ h2 { font: 700 1.5em/1.5 "Droid Sans", sans-serif; margin: 1em 0; }
 #content p { margin: 0 0 2em; }
 
 #disqus_thread{
-  width:50%;
+  max-width: 28em;
   margin: auto;
 }
