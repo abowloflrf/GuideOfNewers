@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #FFF;
+  font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+  color: #111;
+  height: 100%;
+}
+
+h1 {
+  font: 700 2.8em/1.2 "Droid Sans", sans-serif;
+}
+
+h2 {
+  font: 700 1.5em/1.5 "Droid Sans", sans-serif;
+  margin: 1em 0;
+}
+a{
+  text-decoration: none;
+}
+
+#banner {
+  background: url(http://7xrueh.com1.z0.glb.clouddn.com/2737.jpg) no-repeat fixed 50% 0;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.nav{
+  height:70px;
+  width:100%;
+  background-color:rgba(255,255,255,0);
+  box-shadow:0 1px rgba(255,255,255,0.1);
+  position:fixed;
+  transition: all ease 0.25s;
+}
+.floating{
+  background-color:rgba(138,178,137,0.85);
+  height: 50px;
+}
+#logo{
+  float: left;
+  height: 50px;
+  margin:10px;
+}
+
+.nav-list li{
+  font-size: 32px;
+  float: right;
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-right:10px;
+  margin-top:10px;
+}
+.nav-list li a{
+  color:white;
+}
+.nav-list li a:visited{
+  color:white;
+}
+
+
+#bannertext {
+  text-align: center;
+  width: 24em;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  border: .5em solid #fff;
+  margin-left: -12em;
+  padding: 2em 0;
+}
+
+#content {
+  max-width: 36em;
+  text-align: justify;
+  margin-left: 40px;
+  padding: 2em;
+  float: left;
+}
+#content h2{
+  font-size: 48px;
+}
+#content p {
+  margin: 0 0 2em;
+  font-size: 26px;
+}
+
+
+.side-bar{
+  background-color: rgba(138,178,137,0.5);
+  width: 25%;
+  height:100%;
+  margin-top: 80px;
+  margin-right: 10px;
+  float: right;
+  transition: all ease 0.25s;
+}
+.side-bar-list{
+  margin:40px 30px;
+  font-size: 18px;
+  line-height: 26px;
+}
+.fixed{
+  position: fixed;
+  top:10px; 
+  right: 10px;
+  height: 70%;
+}
