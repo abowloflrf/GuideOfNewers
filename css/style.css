@@ -9,14 +9,6 @@ body {
   height: 100%;
 }
 
-h1 {
-  font: 700 2.8em/1.2 "Droid Sans", sans-serif;
-}
-
-h2 {
-  font: 700 1.5em/1.5 "Droid Sans", sans-serif;
-  margin: 1em 0;
-}
 a{
   text-decoration: none;
 }
@@ -105,7 +97,7 @@ a{
 }
 .fixed{
   position: fixed;
-  top:10px; 
+  top:10px;
   right: 10px;
   height: 70%;
 }
