@@ -51,10 +51,16 @@ h2{
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
   background-color: transparent;;
 }
+.dropdown-toggle{
+  margin-left: 50px;
+}
 .dropdown-menu{
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, .175)
+  margin-top: 20px !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
