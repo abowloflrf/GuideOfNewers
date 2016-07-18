@@ -72,6 +72,17 @@ h2{
 .carousel-control.left{
   background-image: none;
 }
+.carousel-indicators li{
+  width: 40px;
+  border-radius: 0;
+  transition: all ease 0.25s;
+}
+.carousel-indicators li:hover{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators .active{
+  width: 42px;
+}
 
 /*首页导航按钮样式*/
 .bk-nav-btn{
