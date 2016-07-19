@@ -7,6 +7,10 @@ h2{
 .container{
   width:1200px !important;
 }
+.container-fluid{
+  padding-left : 0;
+  padding-right : 0;
+}
 
 /*首页顶部导航条样式*/
 .navbar{
@@ -83,13 +87,29 @@ h2{
 .carousel-indicators .active{
   width: 42px;
 }
-
+.carousel-inner{
+  min-width: 1200px;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.carousel-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+.carousel-indicators{
+  min-width: 1200px;
+  margin-left: -50%;
+}
 /*首页导航按钮样式*/
 .bk-nav-btn{
   padding-top: 40px;
   height: 355px;
   background-color: rgba(185,203,223,0.5);
   text-align: center;
+  min-width: 1200px;
 }
 .bk-nav-btn-img{
 
