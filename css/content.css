@@ -23,13 +23,13 @@ h2{
   height: 60px;
 }
 #logo{
-  height: 50px;
-  margin: 15px 20px;
+  height: 70px;
+  margin: 5px 30px;
   transition: all ease 0.25s;
 }
 .logo-floating{
-  height: 40px !important;
-  margin-top: 10px !important;
+  height: 50px !important;
+  margin-top: 5px !important;
 }
 .navbar-right{
   margin-right: 80px;
