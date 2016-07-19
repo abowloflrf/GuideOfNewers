@@ -15,12 +15,11 @@ h2{
 /*首页顶部导航条样式*/
 .navbar{
   height: 80px;
-  width:100%;
+  margin: 0;
   background-color:rgba(255,255,255,0);
   box-shadow:0 1px rgba(0,0,0,0.1);
   border: none;
   border-radius: 0;
-  position:fixed;
   z-index: 1;
   transition: all ease 0.25s;
 }
@@ -67,42 +66,12 @@ h2{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*首页大图样式*/
+.guidesfornewer img{
+  width: 100%;
+}
 
-/*首页图片轮播样式*/
 
-.carousel-control.right{
-  background-image: none;
-}
-.carousel-control.left{
-  background-image: none;
-}
-.carousel-indicators li{
-  width: 40px;
-  border-radius: 0;
-  transition: all ease 0.25s;
-}
-.carousel-indicators li:hover{
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-}
-.carousel-indicators .active{
-  width: 42px;
-}
-.carousel-inner{
-  min-width: 1200px;
-}
-.carousel-inner img {
-    width: 100%;
-}
-.carousel-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1200px;
-}
-.carousel-indicators{
-  min-width: 1200px;
-  margin-left: -50%;
-}
 /*首页导航按钮样式*/
 .bk-nav-btn{
   padding-top: 40px;
@@ -135,11 +104,17 @@ h2{
 .bk-btn:hover{
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
-
+.bk-btn img{
+  display: inline-block;
+  margin: 30px 0;
+}
 /*正文介绍部分样式*/
 
-.bk-centent{
+.bk-content{
   margin-top: 120px !important;
+  height: 1000px;
+  background-color: rgba(255, 0, 0, 0.5);
+  background-image: image(img/index/bg.png);
 }
 
 
