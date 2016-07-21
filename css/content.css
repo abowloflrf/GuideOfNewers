@@ -18,18 +18,21 @@ h2{
 .navbar-header{
   margin-left: 80px;
 }
+.navbar-logo img{
+  opacity: 0.9;
+}
 .navbar-floating{
   background-color: rgba(0, 0, 0, 0.8);
   height: 60px;
 }
 #logo{
-  height: 70px;
-  margin: 5px 30px;
+  height: 60px;
+  margin: 10px 30px;
   transition: all ease 0.25s;
 }
 .logo-floating{
-  height: 50px !important;
-  margin-top: 5px !important;
+  height: 44px !important;
+  margin-top: 8px !important;
 }
 .navbar-right{
   margin-right: 80px;
