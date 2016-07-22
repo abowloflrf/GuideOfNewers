@@ -1,5 +1,15 @@
-p{
-  font-size: 22px;
+.bk-content p{
+  font-size: 24px;
+  text-indent:2em;
+  text-align:justify;
+  text-justify:inter-ideograph;
+  color: #515252;
+}
+.blue_text{
+  color:#a2c9e2;
+}
+.orange_text{
+  color: #f8c78d;
 }
 h2{
   font-size: 42px;
@@ -115,25 +125,69 @@ h2{
   background-color: #f9fafd;
 }
 .bk-content{
-  text-align: center;
   width: 1200px;
   margin-top: 120px !important;
   margin-left: auto;
   margin-right: auto;
-  height: 3000px;
-  background-image: url(img/index/bg.png);
+  background-image: url(../img/index/bg.png);
+  background-size:90%;
+  background-position: top center;
   background-repeat:no-repeat;
-  background-position:center;
   z-index: 1;
 }
+.bk_qianyan{
+  width: 720px;
+  margin-top: 100px;
+  margin-right: 180px;
+  float: right;
+}
+.bk_banquan{
+  width: 720px;
+  margin-top: 140px;
+  margin-left: 180px;
+  margin-bottom: 240px;
+  float: left;
+}
+.bk_guanyu{
+  clear: both;
+}
+.bk_guanyu_1{
+  float: left;
+  width: 400px;
+  margin-left: 140px;
+  padding-bottom: 50px;
+  border-bottom: 5px solid #f8c78d;
+}
+.bk_guanyu_2{
+  width: 420px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  float: right;
+  padding-left: 50px;
+  border-left: 5px solid #f8c78d;
+}
+.bk_guanyu_3{
+  float: left;
+  width: 400px;
+  margin-left: 140px;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+.bk_guanyu_4{
+  width: 900px;
+  margin: 100px auto;
+  clear: both;
+  border-top: 5px solid #f8c78d;
+  padding-top: 40px;
+}
+
 
 
 
 /*页脚部分样式*/
 .bk-footer{
-  margin-top: 100px;
   padding-top: 20px;
-  text-align: center;
+  text-align: center !important;
   border-top: 1px solid #e5e5e5;
 }
 .bk-footer img{
