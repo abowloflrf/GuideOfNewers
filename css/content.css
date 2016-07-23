@@ -1,8 +1,32 @@
-p{
-  font-size: 22px;
+.bk-content p{
+  font-size: 24px;
+  text-indent:2em;
+  text-align:justify;
+  text-justify:inter-ideograph;
+  color:#515252;
+}
+.bk-contentp b{
+  color: black;
+}
+h1{
+  font-size: 64px;
+  color: #a2c9e2;
+  font-weight: bold;
 }
 h2{
+  text-indent:20px;
   font-size: 42px;
+  color: #a2c9e2;
+  font-weight: bold;
+}
+h3{
+  text-indent:24px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.red-text{
+  color: #F48873;
 }
 .container{
   width:1200px !important;
@@ -108,15 +132,63 @@ h2{
   margin-right: auto;
   padding: 0 20px;
 }
-.wenzhang{
+.bk-article{
   margin-bottom: 120px;
 }
-/*正文右侧导航栏样式*/
-.bk-sidebar{
-  background-color: rgba(0, 0, 0, 0.1);
+.heading-level-1{
+  width: 100%;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+.bk-content-tips{
+  background: #dde4e9;
+  border-left: 10px solid #558abb;
+  margin: 20px 30px;
+  padding: 20px 20px 20px 0;
+}
+.bk-content-tips ul{
+  padding-left: 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+/*正文右侧导航栏样式*/
 .affix{
   top:100px;
+  width: 260px;
+}
+.bk-sidebar{
+  padding: 50px 20px;
+}
+ul.bk-sidebar-list{
+  padding-left: 0;
+}
+.bk-sidebar-list li ul{
+  padding-left: 0;
+}
+.bk-sidebar-list li ul a{
+  padding-left: 6px   ;
+}
+li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+li a{
+  color: black;
+}
+li.list-level-1{
+  text-decoration: none;
+  font-size: 28px;
+}
+li.list-level-1 a{
+  margin-bottom: 10px;
+}
+nav ul li ul li{
+  font-size: 16px;
+}
+nav ul li ul li.active a{
+  border-left: 3px solid #f8c78d;
+  color:#f8c78d;
 }
 /*页脚部分样式*/
 .bk-footer{
