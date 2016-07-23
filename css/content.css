@@ -4,6 +4,14 @@ p{
 h2{
   font-size: 42px;
 }
+.container{
+  width:1200px !important;
+}
+.container-fluid{
+  padding-left : 0;
+  padding-right : 0;
+}
+
 /*首页顶部导航条样式*/
 .navbar{
   height: 80px;
@@ -92,7 +100,24 @@ h2{
     margin-left: auto;
     max-width: 1200px;
 }
-
+/*正文左侧内容部分样式*/
+.bk-content{
+  width: 1200px;
+  margin-top: 120px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.wenzhang{
+  margin-bottom: 120px;
+}
+/*正文右侧导航栏样式*/
+.bk-sidebar{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.affix{
+  top:100px;
+}
 /*页脚部分样式*/
 .bk-footer{
   margin-top: 100px;
