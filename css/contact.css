@@ -60,6 +60,64 @@ h2{
 
 
 /*背景图样式*/
-.contactus img{
-  width: 100%;
+.contactus{
+  background-image: url(../img/contact/bg.png);
+  background-size: cover;
+  position:fixed; width:100%; height:100%;
+}
+/*联系方式样式*/
+.contactus-content{
+  height: 500px;
+  width: 1100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.bk-code{
+  float: left;
+}
+.bk-code img{
+  width: 370px;
+  margin-top:65px;
+  margin-bottom:65px;;
+}
+.contactus-full{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.contactus-list{
+  width: 720px;
+  height: 100px;
+  float: right;
+  padding: 20px 20px;
+}
+.contactus-email{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.contactus-wechat{
+  margin-bottom: 60px;
+}
+.contact-block{
+  display: inline-block;
+  font-size: 50px;
+
+}
+.contact-block-left{
+  color: white;
+  text-align: center;
+  width: 180px;
+  background-color: rgba(248,199,141,0.8);
+  border-radius: 8px;
+  margin-right: 40px;
+}
+.contact-block-right{
+  color: #5e5e5e;
+  text-align: center;
+  width: 450px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 8px;
 }

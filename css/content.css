@@ -28,6 +28,18 @@ h3{
 .red-text{
   color: #F48873;
 }
+.blue-text{
+  color:#42A0BB;
+}
+.green-text{
+  color: #6DBDB0;
+}
+.purple-text{
+  color: #B289BE;
+}
+.pink-text{
+  color: #F598A3;
+}
 .container{
   width:1200px !important;
 }
@@ -142,8 +154,8 @@ h3{
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .bk-content-tips{
-  background: #dde4e9;
-  border-left: 10px solid #558abb;
+  background: rgba(245,234,193,0.75);
+  border-left: 15px solid #F6BE58;
   margin: 20px 30px;
   padding: 20px 20px 20px 0;
 }
@@ -169,7 +181,7 @@ ul.bk-sidebar-list{
 .bk-sidebar-list li ul a{
   padding-left: 6px   ;
 }
-li{
+nav li{
   list-style: none;
   margin-bottom: 5px;
 }
