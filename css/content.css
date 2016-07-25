@@ -26,7 +26,7 @@ h3{
 }
 
 .red-text{
-  color: #F48873;
+  color: #F48873 !important;
 }
 .blue-text{
   color:#42A0BB;
@@ -163,6 +163,10 @@ h3{
   padding-left: 30px;
   margin-bottom: 0;
   font-size: 18px;
+}
+.bk-content-tips img{
+  width: 85%;
+  margin:20px 60px;
 }
 /*正文右侧导航栏样式*/
 .affix{
