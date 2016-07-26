@@ -24,6 +24,9 @@ h3{
   font-size: 32px;
   font-weight: bold;
 }
+.bk-content li{
+  font-size: 24px;
+}
 
 .red-text{
   color: #F48873 !important;
@@ -162,11 +165,29 @@ h3{
 .bk-content-tips ul{
   padding-left: 30px;
   margin-bottom: 0;
-  font-size: 18px;
+}
+.bk-content-tips ul li{
+    font-size: 18px !important;
 }
 .bk-content-tips img{
   width: 85%;
   margin:20px 60px;
+}
+small {
+  font-size: 60%;
+
+}
+#bk-content-3-7-1 img{
+  width: 700px;
+  margin:20px;
+}
+#bk-content-4-4-8 img{
+  width: 850px;
+  margin:20px;
+}
+#bk-content-4-6-1 img{
+  width: 700px;
+  margin:20px;
 }
 /*正文右侧导航栏样式*/
 .affix{
@@ -200,11 +221,18 @@ li.list-level-1 a{
   margin-bottom: 10px;
 }
 nav ul li ul li{
-  font-size: 16px;
+  font-size: 16px !important;
 }
 nav ul li ul li.active a{
   border-left: 3px solid #f8c78d;
   color:#f8c78d;
+}
+.nav-tips{
+  font-size: 14px !important;
+  font-style: italic;
+  background: rgba(245,234,193,0.75);
+  border-left: 5px solid #F6BE58;
+  padding: 10px 8px 10px 6px;
 }
 /*页脚部分样式*/
 .bk-footer{
